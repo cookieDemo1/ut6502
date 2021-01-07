@@ -1,0 +1,11 @@
+.form-title{
+  height: 40px;
+  line-height: 40px;
+  width: 50%;
+  background-color: #FCF7EE;
+  font-size: 16px;
+  font-weight: bold;
+  opacity: .95;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}

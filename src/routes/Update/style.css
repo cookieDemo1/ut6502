@@ -1,0 +1,80 @@
+#update .tip{
+  width: 506px;
+  height: 34px;
+  line-height: 34px;
+  background-color: #FCF7EE;
+  color: rgba(33,33,33, .6);
+  font-size: 14px;
+  text-align: center;
+}
+
+#update .box{
+  width: 506px;
+  height: 172px;
+  border: 1px solid #E8E9DE;
+  margin-top: 20px;
+  padding-top: 23px;
+  padding-left: 31px;
+}
+
+#update .box .file{
+  height: 34px;
+  margin-top: 15px;
+}
+
+#update .box>p{
+  height: 21px;
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#update .box .file>span{
+  display: inline-block;
+  height: 34px;
+  line-height: 34px;
+  font-size: 13px;
+  margin-right: 20px;
+  opacity: .8;
+}
+
+#update .file>button{
+  width: 90px;
+  height: 33px;
+  margin-right: 20px;
+  background-color: #fff;
+  border: 1px solid #CFD0D4;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#update .file>button:hover{
+  opacity: .9;
+  border: 1px solid #1d78de;
+}
+
+#update .file #file-name{
+  width: 200px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 14px;
+  background-color: #F1F2F6;
+  padding-left: 20px;
+  border-radius: 4px;
+}
+
+#update .btn-update{
+  margin-left: 120px;
+}
+
+/*#update input[type=file]{*/
+/*  border: none;*/
+/*  height: 34px;*/
+/*  width: 200px;*/
+/*  z-index: 100;*/
+/*}*/
+
+
+
+
+

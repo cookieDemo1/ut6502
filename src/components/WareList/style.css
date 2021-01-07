@@ -1,0 +1,99 @@
+.ware-list{
+
+  /*background-color: skyblue;*/
+  width: 822px;
+  /*margin-right: 70px;*/
+}
+
+.ware-list .key{
+  display: inline-block;
+  height: 30px;
+  line-height: 33px;
+  font-size: 14px;
+}
+
+.ware-list input, .ware-list select{
+  width: 135px;
+  height: 28px;
+  margin-right: 40px;
+  border: 1px solid #CFD0D4;
+  border-radius: 4px;
+  padding-left: 5px;
+}
+
+.ware-list .mini-btn{
+  height: 28px;
+  width: 65px;
+  border-radius: 4px;
+  background-color: #18C71E;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.ware-list .mini-btn:hover{
+  opacity: .9;
+}
+
+
+/*.ware-list table, .ware-list th, .ware-list td{*/
+
+/*  text-align: center;*/
+/*}*/
+
+/*!* 表格的css属性设置 *!*/
+/*.ware-list table{*/
+/*  margin-top: 20px;*/
+/*  border-collapse: collapse;*/
+/*  width: 100%;*/
+
+/*}*/
+
+/*.ware-list th{*/
+/*  width: 20%;*/
+/*  height: 30px;*/
+/*  line-height: 30px;*/
+/*  font-size: 14px;*/
+/*  color: rgba(33,33,33, .75);*/
+/*  background-color: #F1F2F6;*/
+
+/*}*/
+
+/*.ware-list td{*/
+/*  width: 20%;*/
+/*  height: 30px;*/
+/*  line-height: 30px;*/
+/*  font-size: 14px;*/
+/*  color: rgba(33,33,33, .75);*/
+/*  border-bottom: 1px solid #E8E9DE;*/
+/*}*/
+
+.ware-list .delete{
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  line-height: 23px;
+  border-radius: 50%;
+  background-color: #D91020;
+  color: #FFFFFF;
+  cursor: pointer;
+  user-select: none;
+}
+
+.ware-list .delete:hover{
+  opacity: .8;
+}
+
+.ware-list input[type=checkbox]{
+  position: relative;
+  top: 3px;
+  height: 15px;
+  width: 15px;
+
+  /*padding: 15px;*/
+}
+
+.ware-list button.apply{
+  width: 65px;
+  height: 28px;
+  line-height: 30px;
+}

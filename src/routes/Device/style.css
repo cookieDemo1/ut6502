@@ -1,0 +1,113 @@
+#device{
+  /*height: 600px;*/
+  width: 500px;
+  /*background-color: deepskyblue;*/
+}
+
+#device .name{
+  height: 120px;
+  padding: 24px 0 0 31px;
+  /*background-color: rebeccapurple;*/
+  border: 1px solid #E8E9DE;
+}
+
+#device .name input{
+  width: 300px;
+}
+
+#device .name button{
+
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 90px;
+
+}
+
+
+#device .password{
+  height: 225px;
+  border: 1px solid #E8E9DE;
+  margin-top: 20px;
+  padding: 24px 0 0 31px;
+}
+
+#device .password .setting{
+  margin-top: 20px;
+  height: 34px;
+}
+
+#device .password .setting span{
+  display: inline-block;
+  height: 100%;
+  line-height: 100%;
+  font-size: 14px;
+  opacity: .85;
+  width: 60px;
+}
+
+#device .password .setting input{
+  width: 350px;
+}
+
+#device .password button{
+  margin-top: 20px;
+}
+
+
+#device .system{
+  height: 140px;
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+
+#device .system span{
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  opacity: .8;
+  margin-top: 5px;
+}
+
+#device .system .recover, #device .system .reboot{
+  width: 240px;
+  height: 100%;
+  border: 1px solid #E8E9DE;
+  padding: 24px 0 0 31px;
+}
+
+#device .system .recover{
+
+}
+
+#device .system .reboot{
+
+}
+
+#device p{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#device input{
+  padding-left: 5px;
+  height: 34px;
+  line-height: 34px;
+}
+
+#device button{
+  height: 34px;
+  line-height: 34px;
+  width: 90px;
+}
+
+#device .change-password{
+  margin-left: 140px;
+}
+
+
+

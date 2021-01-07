@@ -1,0 +1,38 @@
+#ip ul{
+  width: 600px;
+}
+
+#ip ul li{
+  margin-bottom: 20px;
+}
+
+#ip ul li span:first-child{
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 13px;
+  opacity: .8;
+}
+
+#ip ul li span:last-child{
+  margin-left: 10px;
+  font-size: 13px;
+  color: #FF3B3B;
+}
+
+#ip input, #ip select{
+  width: 300px;
+  height: 30px;
+  outline: none;
+  border-radius: 4px;
+  padding-left: 5px;
+  border: 1px solid #CFD0D4;
+}
+
+#ip .buttons{
+  margin-left: 80px;
+}
+
+
+

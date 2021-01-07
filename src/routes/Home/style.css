@@ -1,0 +1,121 @@
+.root.device{
+    background-color: #F1F2F6;
+    border: 1px solid #F1F2F6;
+}
+#home{
+    height: 100%;
+}
+/* 设备参数列表 */
+
+#device-list{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    height: 169px;
+
+
+}
+
+#device-list>li{
+    height: 16px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #cfd0d4;
+}
+
+#device-list .item-parent{
+    /*height: 84px;*/
+}
+
+#device-list .item-parent>div{
+    display: inline-block;
+    height: 80px;
+    background-color: #F5F6FA;
+}
+
+#device-list .item-first{
+    width: 336px !important;
+    margin-left: 0 !important;
+}
+#device-list .item{
+    width: 228px;
+    margin-left: 20px;
+    border-radius: 4px;
+}
+
+#device-list .item>p{
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+
+#device-list .item>p:first-child{
+    font-size: 14px;
+    color: rgba(33, 33, 33, .75);
+    margin-top: 20px;
+}
+
+#device-list .item>p:last-child{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 4px;
+
+}
+
+
+
+
+/** Can列表 */
+#can-list{
+    display: flex;
+    height: calc(100% - 189px);
+}
+
+#can-list>div{
+    padding: 20px 0 0 20px;
+    display: inline-block;
+    /*height: 477px;*/
+    height: 100%;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+#can-list>div.can1{
+    margin-right: 20px;
+    width: 553px;
+}
+#can-list>div.can2{
+    flex-grow: 1;
+}
+
+#can-list .can-table{
+    margin-top: 0;
+    border: 1px solid #F0F0F3;
+    width: 513px;
+
+}
+
+
+
+#can-list .can-table tr td{
+    text-align: left;
+    padding-left: 20px;
+    border: 1px solid #F0F0F3;
+    height: 37px;
+    font-size: 14px;
+}
+
+.can-table tr td:first-child{
+    color: rgba(33, 33, 33, .75);
+}
+
+.can-table tr td:last-child{
+    color: rgb(33, 33, 33);
+    font-weight: bold;
+}
+
+
+
+
+
